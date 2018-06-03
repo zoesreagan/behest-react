@@ -214,7 +214,7 @@ class App extends Component {
             }
 
             <footer>
-              <small>Based on the <a href="https://dementia-directive.org/">Dementia Directive</a>, created by Dr. Barak Gaster at the University of Washington.<br/>
+              <small>Based on the <a target="_blank" href="https://dementia-directive.org/">Dementia Directive</a>, created by Dr. Barak Gaster at the University of Washington.<br/>
                      &copy; Zoe Skye, 2018</small>
             </footer>
 
