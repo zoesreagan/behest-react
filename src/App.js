@@ -51,7 +51,7 @@ class App extends Component {
   };
 
   register = async (first_name, last_name, username, password) => {
-    const userRegister = await fetch('https://powerful-plateau-54403.herokuapp.com/register', {
+    const userRegister = await fetch('https://powerful-plateau-54403.herokuapp.com/user/register', {
       method: 'POST',
       credentials: 'include',
       body: JSON.stringify({
