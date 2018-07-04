@@ -9,18 +9,25 @@ const FormIndex = (props) => {
 			<div key={form.id}>
 				<div body key={form.id} className="form">
             <ul className="formList" id={form.id} key={i}>
-              <h3>People with advancing dementia lose the ability to make decisions for
-                themselves.<br /><br />
-                Their families need to make medical decisions for them.<br /><br /></h3>
+							<div className="container">
+								<div className="row">
+									<div className="twelve columns">
+										<h3>People with advancing dementia lose the ability to make decisions for
+											themselves.<br /><br />
+											Their families need to make medical decisions for them.<br /><br /></h3>
 
-                <h6>Giving family members guidance about what kind of care you'd want if you
-                were to develop worsening dementia can ease the burden of their decision
-                making and make you feel more secure that you'll receive the care that you
-                would want.</h6><br /><br />
+											<h6>Giving family members guidance about what kind of care you'd want if you
+											were to develop worsening dementia can ease the burden of their decision
+											making and make you feel more secure that you'll receive the care that you
+											would want.</h6><br /><br />
 
-                <h4>Your guidance today will help the people taking care of you in the future.</h4><br /><br />
+											<h4>Your guidance today will help the people taking care of you in the future.</h4><br /><br />
+									</div>
+								</div>
+							</div>
+							
 
-                 <li><h1>{form.first_name}'s Directive</h1><br />
+                 <li><h1>My Directive</h1><br />
                   <h3>Created: {form.date_created}</h3></li><br /><br />
 
                  <h4>Stage 1 -- Mild dementia</h4>
