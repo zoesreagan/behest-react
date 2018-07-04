@@ -117,7 +117,7 @@ class UserFormContainer extends Component {
                 <AddNewForm addedForm={this.state.addedForm} createForm={this.createForm} navigateToIndex={this.navigateToIndex} />
                  : <div>
                    {this.props.showFormIndex ?
-                     <FormIndex form={this.state.form} deleteForm={this.deleteForm} renderEditForm={this.props.renderEditForm} editedFormId={this.props.editedFormId} getFormToEdit={this.props.getFormToEdit} formToEdit={this.props.formToEdit} />
+                     <FormIndex form={this.state.form} deleteForm={this.deleteForm} renderEditForm={this.props.renderEditForm} editedFormId={this.props.editedFormId} getFormToEdit={this.props.getFormToEdit} formToEdit={this.props.formToEdit} deleteForm={this.props.deleteForm} />
                      :<div>
                        {this.props.showEditForm ?
                        <EditForm editForm={this.editForm} formToEdit={this.props.formToEdit} />

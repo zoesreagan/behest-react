@@ -20,33 +20,33 @@ const FormIndex = (props) => {
 
                 <h4>Your guidance today will help the people taking care of you in the future.</h4><br /><br />
 
-                 <li><h2>My Directive</h2><br />
+                 <li><h1>{form.first_name}'s Directive</h1><br />
                   <h3>Created: {form.date_created}</h3></li><br /><br />
 
                  <h4>Stage 1 -- Mild dementia</h4>
-                 <h6>People may often lose ability to remember recent events in their lives.<br />
+                 <h5>People may often lose ability to remember recent events in their lives.<br />
                      Routine tasks become difficult (such as cooking.) Some tasks can become more dangerous (such as driving.)<br />
                      If you were to be at this stage of dementia what level of medical care would you want for
-                     yourself? </h6>
+                     yourself? </h5>
 
                   <h4>My wishes:</h4>
                  		<li>{form.response_1}</li><br /><br />
 
                  <h4>Stage 2 -- Moderate dementia</h4>
-                 <h6>People lose the ability to have conversations, and communication becomes very limited.<br />
+                 <h5>People lose the ability to have conversations, and communication becomes very limited.<br />
                    People lose the ability to understand what is going on around them.<br />
                    People require daily full-time assistance with dressing and sometimes toileting.<br />
-                   If you were at this stage of dementia what level of medical care would you want? </h6>
+                   If you were at this stage of dementia what level of medical care would you want? </h5>
 
                    <h4>My wishes:</h4>
                    	<li>{form.response_2}</li><br /><br />
 
                  <h4>Stage 3 -- Severe dementia</h4>
-                 <h6>People are no longer able to recognize loved ones and family members. People may be
+                 <h5>People are no longer able to recognize loved ones and family members. People may be
                    awake through the night, disruptive, and yelling.<br />
                    Some may be calm or serene most or all of the time, but many become angry and
                    agitated at times, and sometimes even violent toward people they love.<br />
-                   People need round-the-clock help with all daily activities.</h6>
+                   People need round-the-clock help with all daily activities.</h5>
 
                    <h4>My wishes:</h4>
                    	<li>{form.response_3}</li>
