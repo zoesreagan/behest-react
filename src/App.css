@@ -1,6 +1,7 @@
 body {
   background: rgb(21,14,73);
   background: linear-gradient(274deg, rgba(21,14,73,1) 0%, rgba(34,145,116,1) 100%);
+  background-position: center;
 }
 
 #AppContainer {
