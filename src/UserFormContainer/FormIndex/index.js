@@ -59,7 +59,7 @@ const FormIndex = (props) => {
                    	<li>{form.response_3}</li>
 
 						<button className="button button-primary" onClick={props.renderEditForm}>Edit Form</button><br /><br />
-						<button onClick={props.deleteForm, console.log(Button clicked!);}>Delete Form</button><br />
+						<button onClick={props.deleteForm, console.log("Button clicked!");}>Delete Form</button><br />
           </ul>
 				</div>
       </div>
