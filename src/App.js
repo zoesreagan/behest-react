@@ -124,17 +124,17 @@ class App extends Component {
   };
 
 
-  openLearnMorePage = (e) => {
-    console.log("button being clicked!");
-    this.setState({
-      showNewForm: false,
-      formShow: false,
-      showFormIndex: false,
-      showEditForm: false,
-      showMoreInfo: true
-    })
-    console.log(this.state);
-  };
+  // openLearnMorePage = (e) => {
+  //   console.log("button being clicked!");
+  //   this.setState({
+  //     showNewForm: false,
+  //     formShow: false,
+  //     showFormIndex: false,
+  //     showEditForm: false,
+  //     showMoreInfo: true
+  //   })
+  //   console.log(this.state);
+  // };
 
 
   getFormToEdit = async () => {
